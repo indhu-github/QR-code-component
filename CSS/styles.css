@@ -26,7 +26,7 @@ body {
   border-radius: 15px;
   height: 450px;
   width: 350px;
-  margin: 10% auto 20% auto;
+  margin: 8% auto 20% auto;
 }
 
 .image img {
@@ -65,4 +65,10 @@ body {
 
 .attribution a {
   color: var(--Dark-blue);
+}
+
+@media screen and (max-width: 468px) {
+  .card {
+    margin: 20% auto 20% auto;
+  }
 }
